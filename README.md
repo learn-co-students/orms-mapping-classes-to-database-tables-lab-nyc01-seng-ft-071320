@@ -30,19 +30,19 @@ Lastly, you'll create a method that *both creates a new instance of the student 
 
 Let's get started!
 
-## Instructions
+## Instruction
 
 ### Attributes
 
-Your `Student` instances should initialize with a name, grade and an optional id. The default value of the `id` parameter should be set to `nil`. This is because when we create new `Student` instances, we will not assign them an `id`. That is the responsibility of the database and we will learn more about that later. 
+<!-- Your `Student` instances should initialize with a name, grade and an optional id. The default value of the `id` parameter should be set to `nil`. This is because when we create new `Student` instances, we will not assign them an `id`. That is the responsibility of the database and we will learn more about that later. 
 
-`Student` attributes should have an `attr_accessor` for `name` and `grade` but only an `attr_reader` for `id`. The only place `id` can be set equal to something is inside the initialize method, via: `@id = id`
+`Student` attributes should have an `attr_accessor` for `name` and `grade` but only an `attr_reader` for `id`. The only place `id` can be set equal to something is inside the initialize method, via: `@id = id` -->
 
 ### The `.create_table` Method
-
+<!-- 
 This is a class method that creates the students table. Use a heredoc to set a variable, `sql`, equal to the necessary SQL statement. Remember, the attributes of a student, `name`, `grade`, and `id`, should correspond to the column names you are creating in your students table. The `id` column should be the primary key. 
 
-With your `sql` variable pointing to the correct SQL statement, you can execute that statement using the `#execute` method provided to us by the SQLite3-Ruby gem. Remember that this method is called on whatever object stores your connection to the database, in this case `DB[:conn]`.
+With your `sql` variable pointing to the correct SQL statement, you can execute that statement using the `#execute` method provided to us by the SQLite3-Ruby gem. Remember that this method is called on whatever object stores your connection to the database, in this case `DB[:conn]`. -->
 
 ### The `.drop_table` Method
 
